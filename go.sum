@@ -148,10 +148,10 @@ github.com/hashicorp/memberlist v0.5.0 h1:EtYPN8DpAURiapus508I4n9CzHs2W+8NZGbmmR
 github.com/hashicorp/memberlist v0.5.0/go.mod h1:yvyXLpo0QaGE59Y7hDTsTzDD25JYBZ4mHgHUZ8lrOI0=
 github.com/hashicorp/serf v0.10.1 h1:Z1H2J60yRKvfDYAOZLd2MU0ND4AH/WDz7xYHDWQsIPY=
 github.com/hashicorp/serf v0.10.1/go.mod h1:yL2t6BqATOLGc5HF7qbFkTfXoPIY0WZdWHfEvMqbG+4=
-github.com/iooikaak/frame v0.0.0-20240222112227-92256e7348b9 h1:C+lhK1WQvmx7cxApAdy8G920w8YIh+hTBsW3PtGI0S8=
-github.com/iooikaak/frame v0.0.0-20240222112227-92256e7348b9/go.mod h1:fFzfwn6l86rDc6bG/AdfWr+WyoynAErEMCg8nXIE47E=
-github.com/iooikaak/pb v0.0.0-20240222122912-3e346619bbac h1:+kjotZV6aFRZm8TI13stodX0byJfwAc1/6n+d2jFiYg=
-github.com/iooikaak/pb v0.0.0-20240222122912-3e346619bbac/go.mod h1:3yyd7opj1OVfm+Ljujad6ZrgPzBFjKKctCDiVgPveaA=
+github.com/iooikaak/frame v0.0.0-20240222150429-22cd4d3985bc h1:fFK6gljwdV95pRqAMrrV1wkdcxpaTvdKHdaRs39ED9M=
+github.com/iooikaak/frame v0.0.0-20240222150429-22cd4d3985bc/go.mod h1:Cml3iBMaqKs5/kwsrap1TX5E08zZGvMGmpO3fKzQfiY=
+github.com/iooikaak/pb v0.0.0-20240222150701-9f1a93a2268e h1:HlqOujdQlu5ZqOUNuSbI42PFqco6cs1FCXZr/K3CLdE=
+github.com/iooikaak/pb v0.0.0-20240222150701-9f1a93a2268e/go.mod h1:6A6h38TuQ4W/oiVepuveIoSggVveULwDkgOscEQTULY=
 github.com/jaegertracing/jaeger-lib v2.4.1+incompatible h1:T+iarSGas1APzunL/14yHIHVyNDi3WK0Xvo8RQu5MT8=
 github.com/jaegertracing/jaeger-lib v2.4.1+incompatible/go.mod h1:VqeqQrZmZr9G4WdLw4ei9tAHU54iJRkfoFHvTTQn4jQ=
 github.com/jinzhu/gorm v1.9.16 h1:+IyIjPEABKRpsu/F8OvDPy9fyQlgsg2luMV2ZIH5i5o=

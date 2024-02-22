@@ -19,8 +19,8 @@
   },
   "mysqlConfig": {
     "host": {
-      "read": "cyril.develop",
-      "write": "cyril.develop"
+      "read": "127.0.0.1",
+      "write": "127.0.0.1"
     },
     "port": 3306,
     "user": "root",
@@ -28,10 +28,10 @@
     "dbName": "app"
   },
   "redisConfig": {
-    "address": "http://cyril.develop:6379",
+    "address": "http://127.0.0.1:6379",
     "password": "",
     "dbNo": 0
   },
   "authRaw":"WarHorse2019",
-  "jaeger": "http://cyril.develop:14268/api/traces"
+  "jaeger": "http://127.0.0.1:14268/api/traces"
 }

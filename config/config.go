@@ -1,13 +1,12 @@
 package config
 
 import (
+	"encoding/json"
 	"flag"
 	"io"
 	"path/filepath"
 
 	"github.com/iooikaak/gateway/model/enum"
-	"gopkg.in/yaml.v3"
-
 	"github.com/opentracing/opentracing-go"
 	"github.com/uber/jaeger-client-go"
 	jaegercfg "github.com/uber/jaeger-client-go/config"
@@ -82,21 +81,21 @@ func init() {
 
 func Init() (err error) {
 	var (
-		yamlFile string
+		jsonFile string
 	)
 	if confPath != "" {
-		yamlFile, err = filepath.Abs(confPath)
+		jsonFile, err = filepath.Abs(confPath)
 	} else {
-		yamlFile, err = filepath.Abs(enum.GatewayYaml.String())
+		jsonFile, err = filepath.Abs(enum.GatewayJson.String())
 	}
 	if err != nil {
 		return
 	}
-	yamlRead, err := os.ReadFile(yamlFile)
+	jsonRead, err := os.ReadFile(jsonFile)
 	if err != nil {
 		return
 	}
-	err = yaml.Unmarshal(yamlRead, Conf)
+	err = json.Unmarshal(jsonRead, Conf)
 	if err != nil {
 		return
 	}

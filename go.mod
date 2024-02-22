@@ -1,6 +1,6 @@
 module github.com/iooikaak/gateway
 
-go 1.22
+go 1.21
 
 replace (
 	github.com/armon/go-metrics v0.5.2 => github.com/hashicorp/go-metrics v0.5.3
@@ -11,15 +11,14 @@ replace (
 require (
 	github.com/go-sql-driver/mysql v1.7.1
 	github.com/gomodule/redigo v1.8.9
-	github.com/iooikaak/frame v0.0.0-20240222112227-92256e7348b9
-	github.com/iooikaak/pb v0.0.0-20240222122912-3e346619bbac
+	github.com/iooikaak/frame v0.0.0-20240222150429-22cd4d3985bc
+	github.com/iooikaak/pb v0.0.0-20240222150701-9f1a93a2268e
 	github.com/jinzhu/gorm v1.9.16
 	github.com/nobugtodebug/go-objectid v0.0.0-20151104061341-bf7daf78f0d4
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/prometheus/client_golang v1.18.0
 	github.com/uber/jaeger-client-go v2.30.0+incompatible
 	go.uber.org/zap v1.27.0
-	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
@@ -69,4 +68,5 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240108191215-35c7eff3a6b1 // indirect
 	google.golang.org/grpc v1.60.1 // indirect
 	google.golang.org/protobuf v1.32.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
