@@ -1,0 +1,37 @@
+{
+  "env": "dev",
+  "authorization": [
+    "app",
+    "internal",
+    "openapi"
+  ],
+  "ip": "cyril.develop",
+  "port": "3201",
+  "baseConfig": {
+    "etcdConfig": {
+      "endpoints": [
+        "http://127.0.0.1:2379"
+      ],
+      "user": "root",
+      "password": "12345678",
+      "timeout": 3
+    }
+  },
+  "mysqlConfig": {
+    "host": {
+      "read": "cyril.develop",
+      "write": "cyril.develop"
+    },
+    "port": 3306,
+    "user": "root",
+    "password": "12345678",
+    "dbName": "app"
+  },
+  "redisConfig": {
+    "address": "http://cyril.develop:6379",
+    "password": "",
+    "dbNo": 0
+  },
+  "authRaw":"WarHorse2019",
+  "jaeger": "http://cyril.develop:14268/api/traces"
+}
