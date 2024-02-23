@@ -12,7 +12,7 @@ require (
 	github.com/go-sql-driver/mysql v1.7.1
 	github.com/gomodule/redigo v1.8.9
 	github.com/iooikaak/frame v0.0.0-20240222150429-22cd4d3985bc
-	github.com/iooikaak/pb v0.0.0-20240222150701-9f1a93a2268e
+	github.com/iooikaak/pb v0.0.0-20240223091925-c2ee3806c097
 	github.com/jinzhu/gorm v1.9.16
 	github.com/nobugtodebug/go-objectid v0.0.0-20151104061341-bf7daf78f0d4
 	github.com/opentracing/opentracing-go v1.2.0
